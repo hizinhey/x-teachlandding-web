@@ -81,12 +81,12 @@ p {
     display: inline;
 }
 
-#shape-mess {
-    background-image: url("../img/shape-mess.png");
-    background-size: cover;
-    margin: 2rem;
+.shape-mess {
+    background: url("../img/testimonials-li-text.png") repeat-x top #f1f1f1;
     padding-bottom: 15px;
-    width: 93%;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
 }
 
 .color-growd{
@@ -96,3 +96,31 @@ p {
 .color-growder{
     background-color: #575757;
 }
+
+.position-w-button-1{
+    width: auto;
+    top:42%;
+    left: 105%;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.width-150{
+    width: 150%;
+}
+
+.position-w-button-2{
+    width: auto;
+    top:0;
+    left: -50%;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+  
