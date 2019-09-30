@@ -1,6 +1,49 @@
+/* Font-family*/
+
+@font-face {
+    font-family: 'HelveticaMC';
+    src: url('helveticaneueltpro-mdcn-webfont.eot');
+    src: local('â˜º'), url('helveticaneueltpro-mdcn-webfont.woff') format('woff'), url('helveticaneueltpro-mdcn-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaULC';
+    src: url('helveticaneueltcom-ultltcn-webfont.eot');
+    src: local('â˜º'), url('helveticaneueltcom-ultltcn-webfont.woff') format('woff'), url('helveticaneueltcom-ultltcn-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaLC';
+    src: url('helveticaneueltcom-ltcno-webfont.eot');
+    src: local('â˜º'), url('helveticaneueltcom-ltcno-webfont.woff') format('woff'), url('helveticaneueltcom-ltcno-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+/* Style */
+.font-MC{
+    font-family: 'HelveticaMC',;
+}
+
+.font-ULC{
+    font-family: 'HelveticaULC';
+}
+
+.font-LC{
+    font-family: 'HelveticaLC'; 
+}
+
 body {
     background-image: url("../img/background.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .blue-text-color {
@@ -21,7 +64,6 @@ a:hover {
     -moz-box-shadow: 0px 1px 0px 1px #5f7a9a;
     -webkit-box-shadow: 0px 1px 0px 1px #5f7a9a;
     box-shadow: 0px 1px 0px 1px #5f7a9a;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b5e8ff), color-stop(1, #5d98e0));
     background: -moz-linear-gradient(top, #b5e8ff 5%, #5d98e0 100%);
     background: -webkit-linear-gradient(top, #b5e8ff 5%, #5d98e0 100%);
     background: -o-linear-gradient(top, #b5e8ff 5%, #5d98e0 100%);
@@ -43,7 +85,6 @@ a:hover {
 }
 
 .big-button:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5d98e0), color-stop(1, #b5e8ff));
     background: -moz-linear-gradient(top, #5d98e0 5%, #b5e8ff 100%);
     background: -webkit-linear-gradient(top, #5d98e0 5%, #b5e8ff 100%);
     background: -o-linear-gradient(top, #5d98e0 5%, #b5e8ff 100%);
@@ -57,7 +98,6 @@ a:hover {
     position: relative;
     top: 1px;
 }
-
 
 /*try make shadow instead of image*/
 
@@ -89,17 +129,17 @@ p {
     border-radius: 5px;
 }
 
-.color-growd{
+.color-growd {
     background-color: #a5a5a5;
 }
 
-.color-growder{
+.color-growder {
     background-color: #575757;
 }
 
-.position-w-button-1{
+.position-w-button-1 {
     width: auto;
-    top:42%;
+    top: 42%;
     left: 105%;
     display: inline;
     float: left;
@@ -108,19 +148,18 @@ p {
     font-style: italic;
 }
 
-.width-150{
+.width-150 {
     width: 150%;
 }
 
-.position-w-button-2{
+.position-w-button-2 {
     width: auto;
-    top:0;
+    top: 0;
     left: -50%;
     display: inline;
     float: left;
     text-align: center;
     font-size: 0.9rem;
     font-style: italic;
+    position:
 }
-
-  
